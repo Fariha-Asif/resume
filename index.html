@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=======BOX ICONS=========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!--======CSS==========-->
+    <link rel="stylesheet" href="/style.css">
+    
+    <title>Resume builder</title>
+</head>
+<body class="scale-cv">
+    <!--======= HEADER ========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Resume</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home nav__icon'></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class='bx bx-user nav__icon'></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book-alt nav__icon'></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt nav__icon'></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt nav__icon'></i>Experience
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class='bx bx-award nav__icon'></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#references" class="nav__link">
+                            <i class='bx bx-link-external nav__icon'></i>References
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+
+    </header>
+
+    <main class="l-main bd-container">
+        <!--All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+            <div class="resume__left">
+                <!--===== HOME =====-->
+                <section class="home" id="home">
+                    <div class="home__container section bd-grid">
+                        <div class="home__data bd-grid">
+                            <img src="/images/fari pic 2.jpg" alt="Profile-image" class="home__img">
+                        
+                            <h1 class="home__title">FARIHA <b>ASIF</b></h1>
+                            <h3 class="home__profession">Web Developer</h3>
+                        
+                            <!--Button to download your CV saved in the pdf folder. Available here-->
+                            <div>
+                                <a download="" href="pdf/ResumeCV.pdf" class="home__button-movil">Download CV</a>
+                            </div>            
+                        </div>
+                        <div class="home_address bd-grid">
+                            <span class="home__information">
+                                <i class='bx bx-map home__icon'></i> Altaf Nagar, secor 11 1/2, Orangi town, Karachi.
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-envelope home__icon'></i> farihadua70@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bx-phone home__icon'></i> +92-334-3875581
+                            </span>
+                            <span class="home__information">
+                                <i class='bx bxl-whatsapp home__icon'></i> +92-303-2602377
+                            </span>
+
+                        </div>
+                    </div>
+                    <!-- Theme Change Button -->
+                     <i class='bx bx-moon change-theme' title="Theme" id="theme-button" ></i>
+                
+                     <!-- Button to generate and download the pdf. Available for desktop  -->
+                      <i class='bx bx-download generate-pdf' title="Generate PDF" id="resume-button"></i>
+                
+                </section>
+
+
+            <!--====== SOCIAL =======-->
+                <section class="social section">
+                    <h2 class="section-title">SOCIAL</h2>
+
+                    <div class="social__conatiner bd-grid">
+                        <a href="www.linkedin.com/in/fariha-faraz-90365b14b" target="_blank" class="social__link">
+                            <i class='bx bxl-linkedin social__icon'></i> @Fariha
+                        </a>
+
+                        <a href="https://www.facebook.com/profile.php?id=100090673177539" target="_blank" class="social__link">
+                            <i class='bx bxl-facebook social__icon'></i> @syedfaham
+                        </a>
+
+                        <a href="https://www.instagram.com/?hl=en" target="_blank" class="social__link">
+                            <i class='bx bxl-instagram social__icon'></i> @syedfaham
+                        </a>
+
+                        <a href="https://github.com/Fariha-Asif?tab=repositories" target="_blank" class="social__link">
+                            <i class='bx bxl-github social__icon'></i> @Fariha
+                        </a>
+                    </div>
+
+                </section>
+
+            <!--======= PROFILE =======-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+
+                    <p class="profile__description">I am a Frontend Developer focused on design and user experience. 
+                        I aim to build visually appealing and functional applications, 
+                        blending creativity with technical skills. I stay updated by exploring design trends,
+                        reading tech blogs, and engaging with developer communities.</p>
+                </section>
+
+                <!--======= EDUCATION ========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+
+                    <div class="education__container bd-grid">
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Agentic AI & Robotics</h3>
+                                <span class="education__studies">PIAIC / GIAIC</span>
+                                <span class="education__year">continue</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">Inter</h3>
+                                <span class="education__studies">Govt. College for Women Nazimabad</span>
+                                <span class="education__year">2010-2012</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--======= SKILLS ========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__content bd-grid">
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Html
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> TypeScript
+                            </li>
+                        </ul>
+
+                        <ul class="skills__data">
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Tailwind Css
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> Python
+                            </li>
+                            <li class="skills__name">
+                                <span class="skills__circle"></span> NextJs
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+            
+
+            <div class="resume__right">
+                
+                <!--================EXPERIENCE============-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__conatiner bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Office Assistant</h3>
+                                <span class="experience__company">March 2018-March 2019 | Reliance International pvt. Ltd.</span>
+                                <p class="experience__description">
+                                    Oversee import documentation, Customs release, client communication, 
+                        and duty estimation. Handle billing, transport reports, petty cash, and office supplies.
+                        Maintain attendance records and report employee performance.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="experience__conatiner bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Junior Executive Officer</h3>
+                                <span class="experience__company">March 2017-June2017 | Background check group</span>
+                                <p class="experience__description">
+                                    Learnt to make projects on different topics related to official work. Work on
+                        Background checking of employees and clients. Educational verification, Employment
+                        verification, CNIC/ Passport verification, address verification.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="experience__conatiner bd-grid">
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+
+                            <div class="experience__data bd-grid">
+                                <h3 class="experience__title">Customer Relation officer</h3>
+                                <span class="experience__company">June 2015-August 2016 | A.R.G Organization</span>
+                                <p class="experience__description">
+                                    To satisfy the customers and answers their query about health products. Give briefing
+                        to the clients about new projects. To agree others and make new clients. Have assist in
+                        arranging seminars.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--=========CERTIFICATES==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Certified for building web app with AI</h3>
+                            <p class="certificate__description">In this course I have learnt about how to build app using Gen AI models with the help of hugging face and LLM like chatgpt, Gemini etc.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!--==========REFERENCES=========-->
+                <section class="references section" id="references">
+                    <h2 class="section-title">References</h2>
+
+                    <div class="references__container bd-grid">
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Manager</span>
+                            <h3 class="references__title">Syed Muhammad Faraz</h3>
+                            <ul class="references__contact">
+                                <li>Phone: +92-336-0027955</li>
+                                <li>Email: farazjhon1@gmail.com</li>
+                            </ul>
+                        </div>
+
+                        <div class="references__content bd-grid">
+                            <span class="references__subtitle">Colleague</span>
+                            <h3 class="references__title">Rimsha</h3>
+                            <ul class="references__contact">
+                                <li>Phone: +92-305-2727093</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <!--==========LANGUAGES==========-->
+                <section class="languages section">
+                    <h2 class="section-title">Languages</h2>
+
+                    <div class="languuages__container">
+                        <ul class="languages__content bd-grid">
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> English
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Urdu
+                            </li>
+                            <li class="languages__name">
+                                <span class="languages__circle"></span> Punjabi
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+
+                <!--=========INTEREST==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+                        <div class="interests__content">
+                            <i class='bx bx-headphone  interests__icon' ></i>
+                            <span class="interests__name">Music</span>
+                        </div>
+                    
+
+                        <div class="interests__content">
+                            <i class='bx bxs-plane-alt  interests__icon' ></i>
+                            <span class="interests__name">Travel</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-book  interests__icon' ></i>
+                            <span class="interests__name">Reading</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <i class='bx bx-dumbbell  interests__icon' ></i>
+                            <span class="interests__name">Fitness</span>
+                        </div>
+                    </div>
+
+                </section>
+
+        
+            </div>
+        </div>
+</main>
+
+<!--=======SCROLL TOP========-->
+<a href="#" class="scrolltop" id="scroll-top">
+    <i class='bx bx-up-arrow-alt scrolltop__icon' ></i>
+</a>
+
+
+<!--=======HTML2PDF==========-->
+<script src="js/html2pdf.bundle.min.js"></script>
+
+
+    <!--======JAVASCRIPT========-->
+    <script src="main.js"></script>
+</body>
+</html>
